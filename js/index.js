@@ -11,20 +11,16 @@ console.log(user)
 
 // Task 2
 
-
+// Можно, потому что при изменении свойства объекста мы не меняем ссылку на оригинальный объект.
 
 
 // Task 3
 
 let salaries = {
-
     John: 100,
-
     Ann: 160,
-
     Pete: 130
-
-}
+};
 let sum =0;
 
 for (let key in salaries){
